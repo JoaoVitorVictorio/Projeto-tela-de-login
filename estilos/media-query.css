@@ -8,7 +8,7 @@ Paleta de cores
 #13262D
 */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) { /*P/ TELAS DE TABLET*/
     body{
         background-image: linear-gradient(to top, #D0A04B, #95959D);
     }
@@ -34,9 +34,12 @@ Paleta de cores
         text-align: center;
     }
 
+    .campo input{
+        transform: translateY(-13px);
+    }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) { /*P/ TELAS DE DESKTOP*/
     body{
         background-image: linear-gradient(to top, #D0A04B, #95959D);
     }
@@ -69,4 +72,7 @@ Paleta de cores
         text-align: center;
     }
 
+    .campo input{
+        transform: translateY(-13px);
+    }
 }
