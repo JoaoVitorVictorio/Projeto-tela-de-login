@@ -34,7 +34,7 @@ body, html{
     border: 0px;
     border-radius: 5px;
     padding: 4px;
-    transform: translateY(-13px);
+    transform: translateY(-12.5px);
 }
 
 .campo input:focus-within{
